@@ -10,7 +10,7 @@ class a_turtle(turtle.Turtle):
     return self.pencolor(), self.pensize()
 
 
-def move(player, direction, magnitude):
+def move(p, direction, magnitude):
     if direction == "right":
       p.rt(magnitude)
     elif direction == "left":
